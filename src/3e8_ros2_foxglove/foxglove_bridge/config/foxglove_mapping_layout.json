@@ -1,0 +1,96 @@
+{
+  "configVersion": "1.0.0",
+  "globalVariables": {},
+  "userNodes": {},
+  "playbackConfig": {
+    "speed": 1,
+    "repeat": false
+  },
+  "layout": {
+    "direction": "row",
+    "first": "3D Panel",
+    "second": {
+      "direction": "column",
+      "first": "Map Panel",
+      "second": "Camera Panel"
+    }
+  },
+  "panels": {
+    "3D Panel": {
+      "type": "3d",
+      "config": {
+        "cameraState": {
+          "perspective": true,
+          "distance": 10,
+          "phi": 0.7853981633974483,
+          "thetaOffset": 0,
+          "targetOffset": [0, 0, 0],
+          "targetOrientation": [0, 0, 0, 1],
+          "fovy": 0.75,
+          "near": 0.01,
+          "far": 5000
+        },
+        "followMode": "follow-pose",
+        "followTf": "base_link",
+        "scene": {
+          "enableStats": false,
+          "labelScale": 1,
+          "labelSize": 0.5,
+          "ignoreColladaUpAxis": false,
+          "meshUpAxis": "y"
+        },
+        "topics": {
+          "/map": {
+            "visible": true,
+            "color": "occupancy",
+            "opacity": 0.7
+          },
+          "/scan": {
+            "visible": true,
+            "color": "intensity",
+            "opacity": 0.8
+          },
+          "/camera/depth/image_raw": {
+            "visible": true,
+            "opacity": 0.5
+          }
+        },
+        "transforms": {
+          "base_link": {
+            "visible": true
+          },
+          "odom": {
+            "visible": true
+          },
+          "map": {
+            "visible": true
+          }
+        }
+      }
+    },
+    "Map Panel": {
+      "type": "image",
+      "config": {
+        "imageTopic": "/map",
+        "synchronize": true,
+        "flipHorizontal": false,
+        "flipVertical": false,
+        "maxValue": 1,
+        "minValue": 0,
+        "normalize": true
+      }
+    },
+    "Camera Panel": {
+      "type": "image",
+      "config": {
+        "imageTopic": "/camera/color/image_raw",
+        "synchronize": true,
+        "flipHorizontal": false,
+        "flipVertical": false,
+        "maxValue": 255,
+        "minValue": 0,
+        "normalize": false
+      }
+    }
+  }
+}
