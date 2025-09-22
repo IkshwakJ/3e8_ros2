@@ -1,0 +1,35 @@
+[0.488s] Invoking command in '/home/ikshwak/3e8_v1/3e8_ros2/src/3e8_ros2_foxglove': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/ikshwak/3e8_v1/3e8_ros2/build/3e8_ros2_foxglove/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ikshwak/3e8_v1/3e8_ros2/install/3e8_ros2_foxglove/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/3e8_ros2_foxglove build --build-base /home/ikshwak/3e8_v1/3e8_ros2/build/3e8_ros2_foxglove/build install --record /home/ikshwak/3e8_v1/3e8_ros2/build/3e8_ros2_foxglove/install.log --single-version-externally-managed install_data
+[0.652s] running egg_info
+[0.652s] creating ../../build/3e8_ros2_foxglove/3e8_ros2_foxglove.egg-info
+[0.664s] writing ../../build/3e8_ros2_foxglove/3e8_ros2_foxglove.egg-info/PKG-INFO
+[0.664s] writing dependency_links to ../../build/3e8_ros2_foxglove/3e8_ros2_foxglove.egg-info/dependency_links.txt
+[0.664s] writing entry points to ../../build/3e8_ros2_foxglove/3e8_ros2_foxglove.egg-info/entry_points.txt
+[0.664s] writing requirements to ../../build/3e8_ros2_foxglove/3e8_ros2_foxglove.egg-info/requires.txt
+[0.664s] writing top-level names to ../../build/3e8_ros2_foxglove/3e8_ros2_foxglove.egg-info/top_level.txt
+[0.665s] writing manifest file '../../build/3e8_ros2_foxglove/3e8_ros2_foxglove.egg-info/SOURCES.txt'
+[0.689s] reading manifest file '../../build/3e8_ros2_foxglove/3e8_ros2_foxglove.egg-info/SOURCES.txt'
+[0.689s] adding license file 'LICENSE.txt'
+[0.689s] writing manifest file '../../build/3e8_ros2_foxglove/3e8_ros2_foxglove.egg-info/SOURCES.txt'
+[0.689s] running build
+[0.690s] running build_py
+[0.690s] creating /home/ikshwak/3e8_v1/3e8_ros2/build/3e8_ros2_foxglove/build
+[0.690s] creating /home/ikshwak/3e8_v1/3e8_ros2/build/3e8_ros2_foxglove/build/lib
+[0.690s] creating /home/ikshwak/3e8_v1/3e8_ros2/build/3e8_ros2_foxglove/build/lib/3e8_ros2_foxglove
+[0.690s] copying 3e8_ros2_foxglove/__init__.py -> /home/ikshwak/3e8_v1/3e8_ros2/build/3e8_ros2_foxglove/build/lib/3e8_ros2_foxglove
+[0.690s] running install
+[0.693s] running install_lib
+[0.706s] creating /home/ikshwak/3e8_v1/3e8_ros2/install/3e8_ros2_foxglove/lib/python3.12/site-packages/3e8_ros2_foxglove
+[0.706s] copying /home/ikshwak/3e8_v1/3e8_ros2/build/3e8_ros2_foxglove/build/lib/3e8_ros2_foxglove/__init__.py -> /home/ikshwak/3e8_v1/3e8_ros2/install/3e8_ros2_foxglove/lib/python3.12/site-packages/3e8_ros2_foxglove
+[0.706s] byte-compiling /home/ikshwak/3e8_v1/3e8_ros2/install/3e8_ros2_foxglove/lib/python3.12/site-packages/3e8_ros2_foxglove/__init__.py to __init__.cpython-312.pyc
+[0.706s] running install_data
+[0.706s] creating /home/ikshwak/3e8_v1/3e8_ros2/install/3e8_ros2_foxglove/share/ament_index
+[0.706s] creating /home/ikshwak/3e8_v1/3e8_ros2/install/3e8_ros2_foxglove/share/ament_index/resource_index
+[0.706s] creating /home/ikshwak/3e8_v1/3e8_ros2/install/3e8_ros2_foxglove/share/ament_index/resource_index/packages
+[0.706s] copying resource/3e8_ros2_foxglove -> /home/ikshwak/3e8_v1/3e8_ros2/install/3e8_ros2_foxglove/share/ament_index/resource_index/packages
+[0.706s] copying package.xml -> /home/ikshwak/3e8_v1/3e8_ros2/install/3e8_ros2_foxglove/share/3e8_ros2_foxglove
+[0.706s] running install_egg_info
+[0.720s] Copying ../../build/3e8_ros2_foxglove/3e8_ros2_foxglove.egg-info to /home/ikshwak/3e8_v1/3e8_ros2/install/3e8_ros2_foxglove/lib/python3.12/site-packages/3e8_ros2_foxglove-0.0.0-py3.12.egg-info
+[0.720s] running install_scripts
+[0.801s] Installing fix_camera_foxglove script to /home/ikshwak/3e8_v1/3e8_ros2/install/3e8_ros2_foxglove/lib/3e8_ros2_foxglove
+[0.801s] writing list of installed files to '/home/ikshwak/3e8_v1/3e8_ros2/build/3e8_ros2_foxglove/install.log'
+[0.817s] Invoked command in '/home/ikshwak/3e8_v1/3e8_ros2/src/3e8_ros2_foxglove' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/ikshwak/3e8_v1/3e8_ros2/build/3e8_ros2_foxglove/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ikshwak/3e8_v1/3e8_ros2/install/3e8_ros2_foxglove/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/3e8_ros2_foxglove build --build-base /home/ikshwak/3e8_v1/3e8_ros2/build/3e8_ros2_foxglove/build install --record /home/ikshwak/3e8_v1/3e8_ros2/build/3e8_ros2_foxglove/install.log --single-version-externally-managed install_data
