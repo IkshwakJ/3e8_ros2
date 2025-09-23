@@ -12,8 +12,10 @@ if [ -f /opt/ros/humble/setup.bash ]; then
   source /opt/ros/humble/setup.bash
 fi
 
-if [ -f "$(dirname "$0")/install/setup.bash" ]; then
-  source "$(dirname "$0")/install/setup.bash"
+SCRIPT_DIR=$(dirname "$(readlink -f "$0")")
+WORKSPACE_ROOT="$SCRIPT_DIR/../../.."   # Adjust if your scripts folder depth changes
+if [ -f "$WORKSPACE_ROOT/install/setup.bash" ]; then
+  source "$WORKSPACE_ROOT/install/setup.bash"
 fi
 
 # --- Run bridge ---

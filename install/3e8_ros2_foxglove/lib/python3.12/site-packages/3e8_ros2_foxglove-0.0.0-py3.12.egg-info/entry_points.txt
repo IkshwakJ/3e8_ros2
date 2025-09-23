@@ -1,2 +1,0 @@
-[console_scripts]
-fix_camera_foxglove = foxglove_bridge_pkg.scripts.fix_camera_foxglove:main
